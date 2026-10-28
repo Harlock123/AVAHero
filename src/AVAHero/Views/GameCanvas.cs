@@ -9,8 +9,8 @@ using AVAHero.Engine;
 namespace AVAHero.Views;
 
 /// <summary>
-/// The screen: a fixed 1024×768 picture scaled to fit the window: the well in the middle, the score and the
-/// pieces' tally on the left, the next piece on the right. Runs the engine from a 60 Hz timer.
+/// The screen: a fixed 1024×768 picture scaled to fit the window: the mine, a screen at a time, and the panel
+/// below with the power, the lives, the dynamite, the level and the score. Runs the engine from a 60 Hz timer.
 /// </summary>
 public sealed partial class GameCanvas : Control
 {
